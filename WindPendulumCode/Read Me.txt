@@ -1,0 +1,9 @@
+基于Cotex-M4的固件库程序
+开发软件——keil 5 MDK
+
+使用方法
+1、增加的驱动程序和应用程序，添加到文件夹Software，并在工程里添加到Software组里
+
+2、在 "includes.h" 的头文件里包含增加的头文件
+
+3、在FWLIB组里增加要用的库文件，并在 stm32f4xx_conf.h 文件里取消相应的注释
